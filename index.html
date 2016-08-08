@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Toast Message</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/simpleToastMessage.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+        <script src="js/simpleToastMessage.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Simple Toast Message</h1>
+        <h3>click buttons for demo (Manual)</h3>
+        
+        <button onclick="defaultToast('send text here which you want to show as simple toast')">defaultToast('textHere')</button>
+        <button onclick="successToast('send text here which you want to show as simple success toast')">successToast('text here to show')</button>
+        <button onclick="errorToast('send text here which you want to show as simple error toast')">errorToast('text here to show')</button>
+        
+        <h3>click buttons for demo (Automatic)</h3>
+        
+        <button onclick="defaultToastAuto('send text here which you want to show as simple toast')">defaultToastAuto('text here to show')</button>
+        <button onclick="successToastAuto('send text here which you want to show as simple success toast')">successToastAuto('text here to show')</button>
+        <button onclick="errorToastAuto('send text here which you want to show as simple error toast')">errorToastAuto('text here to show')</button>
+    </body>
+</html>
