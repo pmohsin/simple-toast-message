@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("body").append('<div class="toast-message"><span style="display:none;" id="toastmessageouter" class=""><span id="toastmessage">Hello! Welcome to simpleToastAlert!</span><span onclick="closeToast()" id="closetoast">x</span></span></div>');
+    $("body").append('<div class="toast-message"><span style="display:none;" id="toastmessageouter" class=""><span id="toastmessage">Hello! Welcome to simpleToastAlert!</span><span onclick="closeToast()" id="closetoast">&times;</span></span></div>');
 });
 
 var successToast = function(message) {
